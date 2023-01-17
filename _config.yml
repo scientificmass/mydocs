@@ -2,10 +2,8 @@ title: Tutorials
 description: Tutorial and config collection.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://scientificmass.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 # Color scheme
 color_scheme: paper
