@@ -1,0 +1,22 @@
+// Color
+$white: rgb(243, 241, 235);
+$body-background-color: $white;
+
+$grey-lt-000: #fcfca473;
+$sidebar-color: $grey-lt-000;
+
+$link-color: $blue-100;
+
+
+body {  
+    color: $body-text-color;
+    background-color: $body-background-color;
+}
+.nav-list-item {
+    background-color: $body-background-color;
+}
+.nav-list-item .active {
+    background-color: rgb(219, 219, 201);
+}
+
+$body-heading-color: $grey-dk-100;
