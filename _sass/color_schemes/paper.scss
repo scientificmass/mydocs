@@ -10,13 +10,34 @@ $link-color: $blue-100;
 
 body {  
     color: $body-text-color;
-    background-color: $body-background-color;
+    background-color: #E0E0E0 !important;
+
 }
 .nav-list-item {
-    background-color: $body-background-color;
+   
+    background-color: #EDE9DA;
 }
 .nav-list-item .active {
-    background-color: rgb(219, 219, 201);
+    background-color: rgba(250, 211, 54, 0.63);
+    
 }
 
 $body-heading-color: $grey-dk-100;
+.main {
+    background-image: url(/assets/images/bg.jpg);
+    min-height: 90vh;
+}
+.main-content-wrap {
+       background-color:rgba(236, 229, 229, 0.692) !important;
+    min-height: 90vh;
+}
+.site-header, .site-nav, .site-footer {
+    background-color: #EDE9DA;
+}
+.search-input-wrap, #search-input {
+    background: none;
+}
+.search {
+    background-color: rgba(250, 211, 54, 0.932);
+    border-bottom: solid 2px rgb(233, 233, 202);
+}
