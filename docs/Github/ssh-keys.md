@@ -35,3 +35,7 @@ git remote remove origin
 ```
 git remote add origin git@main:username/repository.git
 ```
+### Format of remote add >>
+```
+git remote add origin git@gh_sc:scientificmass/dotfiles.git
+```
