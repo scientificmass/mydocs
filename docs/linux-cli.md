@@ -26,3 +26,8 @@ sudo pacman -Qtdq
 sudo pacman -Rns $(pacman -Qtdq) 
 
 ```
+
+### Get PUID and PGID
+```console
+id username
+```

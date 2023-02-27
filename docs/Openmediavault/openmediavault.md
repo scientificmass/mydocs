@@ -34,3 +34,9 @@ If you see an error message from patch which says a patch has alredy been applie
 sudo apt-get install apparmor-utils
 sudo apt install apparmor-profiles apparmor-profiles-extra
 ```
+
+### For a quick installation of omv-extras, on Openmediavault, run the following command as root:
+```
+sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+```
+[Github](https://github.com/OpenMediaVault-Plugin-Developers/installScript/)
