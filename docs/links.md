@@ -14,3 +14,9 @@ nav_order: 99
 [Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
 [Downloading YouTube videos and playlists with yt-dlp](https://write.corbpie.com/downloading-youtube-videos-and-playlists-with-yt-dlp/)
+
+[https://texblog.org/tex-resources/](https://texblog.org/tex-resources/)
+
+[https://www.overleaf.com/learn/latex/Mathematical_fonts](https://www.overleaf.com/learn/latex/Mathematical_fonts)
+
+[The Comprehensive TEX Archive Network](https://ctan.org/)
