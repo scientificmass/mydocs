@@ -40,3 +40,12 @@ sudo apt install apparmor-profiles apparmor-profiles-extra
 sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 ```
 [Github](https://github.com/OpenMediaVault-Plugin-Developers/installScript/)
+
+### Deployment
+Before deploying the container, make sure that the volume host directories exist. You can copy/paste the information from Portainer and create the directories if needed.
+
+Instead of using the command line, you can of course also create the directories using your favorite file manager.
+
+mkdir -p /volume1/docker/sonarr/config
+mkdir -p /volume1/docker/sonarr/tv
+mkdir -p /volume1/docker/sonarr/downloads

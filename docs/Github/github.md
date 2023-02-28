@@ -48,3 +48,29 @@ If you’re a Windows user, you’ll need to format the path differently.
 git config --global core.excludesfile %USERPROFILE%\.gitignore
 ```
 That’s it, no more pesky editor configuration in your commits!
+
+
+### Open pdf in new window on a github page [Source](https://stackoverflow.com/questions/30745981/opening-pdf-in-a-browser-with-github-pages)
+
+Suppose your personal website is hosted in a Github page as follows:
+
+https://username.github.io
+The repository should be name as username.github.io. If you have a pdf file named document.pdf and you place it in the directory folder then you should be able to open it directly in the browser through the following link:
+
+https://username.github.io/folder/document.pdf
+To allow the user to open the pdf in a new window in the browser, you may use the following HTML, where "PDF" points to the link:
+
+<a href="https://username.github.io/folder/document.pdf" target="_blank">PDF.</a>
+
+
+**Embed**
+
+It's very easy to display Pdf in browser from Github static page, for that you need approach following process,
+
+Make the static website/repository using your Github username, for example, if the username is sumanbogati then repository would be sumanbogati.github.io
+Put the desired pdf in that repository
+Now locate the Url of Pdf wherever you want
+For example, to display pdf in Html web page
+
+<embed src="https://sumanbogati.github.io/sample.pdf" type="application/pdf" />
+This is an instant demo.
